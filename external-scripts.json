@@ -1,0 +1,14 @@
+[
+  "hubot-business-cat",
+  "hubot-darksky",
+  "hubot-diagnostics",
+  "hubot-dice",
+  "hubot-help",
+  "hubot-maps",
+  "hubot-redis-brain",
+  "hubot-rules",
+  "hubot-shipit",
+  "hubot-vimeo",
+  "hubot-wikipedia-lang",
+  "hubot-youtube"
+]

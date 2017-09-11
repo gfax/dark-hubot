@@ -1,0 +1,15 @@
+# Vendor libs
+node_modules
+
+# OS files
+.DS_Store*
+
+# Hubot logs
+.hubot_history
+
+# Log files
+*.log
+
+# Lock files
+package-lock.json
+yarn.lock

@@ -1,0 +1,36 @@
+{
+  "name": "Dark",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Jay Thomas <jay@gfax.ch>",
+  "description": "gfax's custom hubot",
+  "scripts": {
+    "eslint": "eslint ./",
+    "eslint:fix": "eslint --fix ./",
+    "test": "npm run eslint"
+  },
+  "dependencies": {
+    "hubot": "^2.19.0",
+    "hubot-business-cat": "^1.5.9",
+    "hubot-darksky": "^1.1.0",
+    "hubot-diagnostics": "0.0.2",
+    "hubot-dice": "^1.0.0",
+    "hubot-help": "^0.2.2",
+    "hubot-maps": "0.0.3",
+    "hubot-redis-brain": "0.0.4",
+    "hubot-rules": "^0.1.2",
+    "hubot-scripts": "^2.17.2",
+    "hubot-shipit": "^0.2.1",
+    "hubot-slack": "^4.4.0",
+    "hubot-vimeo": "^1.0.2",
+    "hubot-wikipedia-lang": "^1.0.3",
+    "hubot-youtube": "^1.0.2"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-plugin-unicorn": "^2.1.2"
+  }
+}
