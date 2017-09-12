@@ -5,9 +5,6 @@ Dark is a chat bot built on the [Hubot][hubot] framework.
 [hubot]: http://hubot.github.com
 
 - [Features](#features)
-  - [Maps](#maps)
-  - [Weather](#weather)
-  - [Youtube](#youtube)
 - [Setup](#setup)
 - [Running locally](#running-locally)
 - [Scripting](#scripting)
@@ -32,7 +29,7 @@ Once the commands are returned, try them out!
 
     human> directions from 600 e main street richmond, va to foo dog
     dark> Directions from 600 E Main St, Richmond, VA 23219, USA to 1537 W Main St, Richmond, VA 23220, USA
-1.4 mi - 6 mins
+          1.4 mi - 6 mins
           1. Head northwest on E Main St toward N 6th St (1.4 mi)
           2. Turn left onto S Lombardy St - Destination will be on the left (66 ft)
           http://maps.googleapis.com/maps/api/staticmap?size=400x400&path=weight:3%7Ccolor:red%7Cenc:_~bdFfwswMuc@b%7C@c@dAKp@Cb@E~LA`JAjICtGCb@Op@cAzDcFzR^P&sensor=false
@@ -42,8 +39,6 @@ Once the commands are returned, try them out!
           Currently: Clear 33.6°C/93°F
           Today: Partly cloudy starting later this afternoon, continuing until tomorrow morning.
           Coming week: No precipitation throughout the week, with temperatures falling to 24°C/75°F on Thursday.
-
-### Youtube
 
     user1> dark youtube no no no cat remix
     dark> http://www.youtube.com/watch?v=z7OJ3vDqyw8&feature=youtube_gdata
@@ -55,7 +50,12 @@ You must define the following environment variables
 - `HUBOT_SLACK_TOKEN` - If running on Slack, add a bot under your [team settings](https://my.slack.com/apps/A0F7YS25R-bots)
 - `HUBOT_DARK_SKY_API_KEY` - Get an API key from [darksky.net](https://darksky.net/dev)
 - `HUBOT_DARK_SKY_DEFAULT_LOCATION` - Some location you want the bot to default to
+- `HUBOT_UBER_OUTPUT_FORMAT` - Accepted values are `table` (ASCII table), `slack` (ASCII table preceded by code block notation) and `none`. Defaults to `none`.
+- `HUBOT_UBER_TOKEN` - Get an [Uber developer token](https://developer.uber.com)
 - `HUBOT_YOUTUBE_API_KEY` - Get a [Google developer console token](https://console.developers.google.com/)
+- `VIMEO_CLIENT_ID` - [Get developer credentials](https://developer.vimeo.com/)
+- `VIMEO_CLIENT_SECRET`
+- `VIMEO_ACCESS_TOKEN`
 
 ## Running locally
 
