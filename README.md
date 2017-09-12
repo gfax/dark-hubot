@@ -1,5 +1,7 @@
 # Dark (hubot edition)
 
+[![Build Status](https://travis-ci.org/gfax/dark-hubot.svg?branch=master)](https://travis-ci.org/gfax/dark-hubot)
+
 Dark is a chat bot built on the [Hubot][hubot] framework.
 
 [hubot]: http://hubot.github.com

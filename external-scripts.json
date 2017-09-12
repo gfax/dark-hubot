@@ -13,6 +13,7 @@
   "hubot-iss",
   "hubot-maps",
   "hubot-redis-brain",
+  "hubot-remind-at",
   "hubot-rules",
   "hubot-seen",
   "hubot-shipit",
