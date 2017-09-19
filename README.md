@@ -12,7 +12,6 @@ Dark is a chat bot built on the [Hubot][hubot] framework.
 - [Scripting](#scripting)
   - [Advanced usage](#advanced-usage)
 - [Persistence](#persistence)
-- [Adapters](#adapters)
 - [Deployment](#deployment)
   - [Deploying to POSIX or Windows](#deploying-to-posix-or-windows)
 - [Restart the bot](#restart-the-bot)
@@ -67,7 +66,16 @@ upon have been set.
 
 You can start Dark locally by running:
 
-    % bin/hubot-console
+```sh
+npm install
+npm start:console
+```
+
+To connect to slack, instead run:
+
+```sh
+npm start
+```
 
 You'll see some start up output and a prompt:
 
@@ -139,26 +147,6 @@ If you don't need any persistence feel free to remove the `hubot-redis-brain`
 from `external-scripts.json` and you don't need to worry about redis at all.
 
 [redistogo]: https://redistogo.com/
-
-## Adapters
-
-Adapters are the interface to the service you want your hubot to run on, such
-as Campfire or IRC. There are a number of third party adapters that the
-community have contributed. Check [Hubot Adapters][hubot-adapters] for the
-available ones.
-
-If you would like to run a non-Campfire or shell adapter you will need to add
-the adapter package as a dependency to the `package.json` file in the
-`dependencies` section.
-
-Once you've added the dependency with `npm install --save` to install it you
-can then run hubot with the adapter.
-
-    % bin/hubot -a <adapter>
-
-Where `<adapter>` is the name of your adapter without the `hubot-` prefix.
-
-[hubot-adapters]: https://github.com/github/hubot/blob/master/docs/adapters.md
 
 ## Deployment
 

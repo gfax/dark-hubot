@@ -7,6 +7,8 @@
   "scripts": {
     "eslint": "eslint ./",
     "eslint:fix": "eslint --fix ./",
+    "start": "hubot --name \"Dark\" --adapter slack \"$@\"",
+    "start:console": "hubot --name \"Dark\" \"$@\"",
     "test": "npm run eslint"
   },
   "dependencies": {
