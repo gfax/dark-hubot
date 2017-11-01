@@ -5,7 +5,7 @@
 //   gfax
 
 module.exports = (robot) => {
-  let annoyIntervalId
+  let annoyIntervalId = null
   const msg = 'AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH'
 
   robot.respond(/annoy me/, (res) => {

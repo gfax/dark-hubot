@@ -1,14 +1,13 @@
 {
   "name": "Dark",
   "version": "0.0.0",
-  "private": true,
   "author": "Jay Thomas <jay@gfax.ch>",
   "description": "gfax's custom hubot",
   "scripts": {
     "eslint": "eslint ./",
     "eslint:fix": "eslint --fix ./",
     "start": "hubot --name \"Dark\" --adapter slack \"$@\"",
-    "start:console": "hubot --name \"Dark\" \"$@\"",
+    "start:console": "hubot --name Dark",
     "test": "npm run eslint"
   },
   "dependencies": {
@@ -37,9 +36,6 @@
     "hubot-wikipedia-lang": "^1.0.3",
     "hubot-youtube": "^1.0.2",
     "suncalc": "1.5.2"
-  },
-  "engines": {
-    "node": "0.10.x"
   },
   "devDependencies": {
     "eslint": "^4.6.1",
