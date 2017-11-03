@@ -1,6 +1,7 @@
 [
   "hubot-business-cat",
   "hubot-calculator",
+  "hubot-clarifai",
   "hubot-codenames",
   "hubot-credit-card-number-generator",
   "hubot-darksky",
@@ -12,6 +13,7 @@
   "hubot-in-space",
   "hubot-iss",
   "hubot-maps",
+  "hubot-markov",
   "hubot-redis-brain",
   "hubot-remind-at",
   "hubot-rules",
