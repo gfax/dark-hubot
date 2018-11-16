@@ -6,13 +6,15 @@
   "scripts": {
     "eslint": "eslint ./",
     "eslint:fix": "eslint --fix ./",
-    "start": "hubot --name Dark --adapter slack \"$@\"",
+    "start": "npm run start:discord",
     "start:console": "hubot --name Dark",
-    "start:irc": "hubot --name Dark --adapter irc",
+    "start:discord": "npm run start:console -- --adapter discord",
+    "start:irc": "npm run start:console -- --adapter irc",
+    "start:slack": "npm run start:console -- --adapter slack \"$@\"",
     "test": "npm run eslint"
   },
   "dependencies": {
-    "hubot": "^2.19.0",
+    "hubot": "^3.1.1",
     "hubot-business-cat": "^1.5.9",
     "hubot-calculator": "^0.4.0",
     "hubot-clarifai": "https://github.com/gfax/hubot-clarifai.git",
@@ -22,6 +24,7 @@
     "hubot-diagnostics": "0.0.2",
     "hubot-dice": "^1.0.0",
     "hubot-dinosaur-comics": "^0.0.2",
+    "hubot-discord": "https://github.com/thetimpanist/hubot-discord#01548af6a73d757b0a068e0926c93a1535a9617a",
     "hubot-help": "^0.2.2",
     "hubot-humanity": "^0.1.3",
     "hubot-in-space": "^2.0.0",
