@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "hubot": "^3.1.1",
-    "hubot-business-cat": "^1.5.9",
     "hubot-calculator": "^0.4.0",
     "hubot-clarifai": "https://github.com/gfax/hubot-clarifai.git",
     "hubot-codenames": "^1.0.0",
@@ -37,7 +36,6 @@
     "hubot-rules": "^0.1.2",
     "hubot-scripts": "^2.17.2",
     "hubot-seen": "^1.0.1",
-    "hubot-shipit": "^0.2.1",
     "hubot-slack": "^4.4.0",
     "hubot-vimeo": "^1.0.2",
     "hubot-wikipedia-lang": "^1.0.3",

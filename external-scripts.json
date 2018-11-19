@@ -1,5 +1,4 @@
 [
-  "hubot-business-cat",
   "hubot-calculator",
   "hubot-clarifai",
   "hubot-credit-card-number-generator",
@@ -17,7 +16,6 @@
   "hubot-remind-at",
   "hubot-rules",
   "hubot-seen",
-  "hubot-shipit",
   "hubot-vimeo",
   "hubot-wikipedia-lang",
   "hubot-youtube"
