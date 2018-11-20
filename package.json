@@ -17,7 +17,6 @@
     "hubot": "^3.1.1",
     "hubot-calculator": "^0.4.0",
     "hubot-clarifai": "https://github.com/gfax/hubot-clarifai.git",
-    "hubot-codenames": "^1.0.0",
     "hubot-credit-card-number-generator": "^1.0.0",
     "hubot-darksky": "^1.1.0",
     "hubot-diagnostics": "0.0.2",
@@ -43,7 +42,8 @@
     "suncalc": "1.5.2"
   },
   "devDependencies": {
-    "eslint": "^4.6.1",
-    "eslint-plugin-unicorn": "^2.1.2"
+    "eslint": "^5.9.0",
+    "eslint-plugin-json": "^1.2.1",
+    "eslint-plugin-unicorn": "^6.0.1"
   }
 }

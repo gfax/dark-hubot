@@ -6,6 +6,7 @@ parserOptions:
   ecmaVersion: 6
   sourceType: module
 plugins:
+  - json
   - unicorn
 rules:
   accessor-pairs: error
